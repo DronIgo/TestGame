@@ -13,6 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{243867ab-fb22-4527-990f-187970df6881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{f04fe6c2-bba0-4c88-8686-a59c22255c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{880bd463-c7d3-490f-8722-ff9220a88575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{aa4b2150-5900-49f1-85c6-4f08d256f8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Objects">
+      <UniqueIdentifier>{48d1dd20-0ba7-4a39-a09f-d9ea33a28005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Objects">
+      <UniqueIdentifier>{a082bd31-cf30-4fa0-94d1-1d4a24bf1694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Shaders">
+      <UniqueIdentifier>{f30e0f24-2dff-4184-b9e5-45cbb8ecba2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shortcut">
+      <UniqueIdentifier>{20a90bac-5dcd-40c3-b847-2c08905678e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shortcut">
+      <UniqueIdentifier>{392d2f6f-b9e1-4ff7-bc62-1694ec037a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Shaders\vertex_shaders">
+      <UniqueIdentifier>{f26f1b78-a472-489b-bc44-f16c367adfb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Shaders\pixel_shaders">
+      <UniqueIdentifier>{7249890b-916b-42cc-9224-03b15aa836c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.h">
@@ -21,5 +54,69 @@
     <ClCompile Include="Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Graphics\glad.c">
+      <Filter>Header Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Objects\VertexArray.cpp">
+      <Filter>Source Files\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Objects\VertexBuffer.cpp">
+      <Filter>Source Files\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Objects\VertexElements.cpp">
+      <Filter>Source Files\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Objects\VertexSpecification.cpp">
+      <Filter>Source Files\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Objects\Shader.cpp">
+      <Filter>Source Files\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Shortcut\shortcutInit.cpp">
+      <Filter>Source Files\Shortcut</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\debugUtils.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Objects\Texture.cpp">
+      <Filter>Source Files\Graphics\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics\GL_include.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Objects\VertexArray.h">
+      <Filter>Header Files\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Objects\VertexBuffer.h">
+      <Filter>Header Files\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Objects\VertexElements.h">
+      <Filter>Header Files\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Objects\VertexSpecification.h">
+      <Filter>Header Files\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Objects\Shader.h">
+      <Filter>Header Files\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Shortcut\shortcutInit.h">
+      <Filter>Header Files\Shortcut</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\debugUtils.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Objects\Texture.h">
+      <Filter>Header Files\Graphics\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\Shaders\vertex_shaders\translated_color.vs">
+      <Filter>Header Files\Graphics\Shaders\vertex_shaders</Filter>
+    </None>
+    <None Include="Graphics\Shaders\pixel_shaders\color.ps">
+      <Filter>Header Files\Graphics\Shaders\pixel_shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

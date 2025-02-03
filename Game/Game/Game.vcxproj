@@ -71,12 +71,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\DEV\GameOpenGL\Exteral\include\;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\DEV\GameOpenGL\Exteral\Lib\</LibraryPath>
+    <IncludePath>C:\DEV\GameOpenGL\Game\Game;C:\DEV\GameOpenGL\Exteral\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\DEV\GameOpenGL\Exteral\Lib\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\DEV\GameOpenGL\Exteral\include\;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\DEV\GameOpenGL\Exteral\Lib\</LibraryPath>
+    <IncludePath>C:\DEV\GameOpenGL\Game\Game;C:\DEV\GameOpenGL\Exteral\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\DEV\GameOpenGL\Exteral\Lib\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -112,10 +112,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>assimp.lib;$(CoreLibraryDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -126,17 +129,44 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>assimp.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Application.h" />
+    <ClCompile Include="Graphics\glad.c" />
+    <ClCompile Include="Graphics\Objects\Shader.cpp" />
+    <ClCompile Include="Graphics\Objects\Texture.cpp" />
+    <ClCompile Include="Graphics\Objects\VertexArray.cpp" />
+    <ClCompile Include="Graphics\Objects\VertexBuffer.cpp" />
+    <ClCompile Include="Graphics\Objects\VertexElements.cpp" />
+    <ClCompile Include="Graphics\Objects\VertexSpecification.cpp" />
+    <ClCompile Include="Shortcut\shortcutInit.cpp" />
+    <ClCompile Include="Utility\debugUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics\Objects\Shader.h" />
+    <ClInclude Include="Graphics\Objects\Texture.h" />
+    <ClInclude Include="Graphics\Objects\VertexArray.h" />
+    <ClInclude Include="Graphics\Objects\VertexElements.h" />
+    <ClInclude Include="Graphics\Objects\VertexSpecification.h" />
+    <ClInclude Include="Graphics\Objects\VertexBuffer.h" />
+    <ClInclude Include="Graphics\GL_include.h" />
+    <ClInclude Include="Shortcut\shortcutInit.h" />
+    <ClInclude Include="Utility\debugUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\Shaders\pixel_shaders\color.ps" />
+    <None Include="Graphics\Shaders\vertex_shaders\translated_color.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
