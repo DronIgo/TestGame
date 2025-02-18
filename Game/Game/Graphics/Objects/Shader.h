@@ -5,6 +5,8 @@
 #include "glm/gtc/matrix_transform.hpp"
 #include "glm/gtc/type_ptr.hpp"
 
+#include "Graphics/Objects/VertexSpecification.h"
+
 #include <string>
 #include <fstream>
 #include <sstream>
@@ -33,12 +35,15 @@ private:
     static unsigned int currentActiveShader;
     bool checkUniformPresent(const std::string& name, int& location) const;
     void setUniform(int location, uniformValue& value);
+
+    const VertexSpecification* specification;
 public:
     // the program ID
     unsigned int ID;
 
     // constructor reads and builds the shader
-    Shader(const char* vertexPath, const char* fragmentPath);
+    Shader(const std::string& vertexPath, const std::string& fragmentPath, const VertexSpecification* spec);
+    
     // use/activate the shader
     void use();
     bool isActive() const;

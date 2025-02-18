@@ -144,29 +144,37 @@
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Application.h" />
     <ClCompile Include="Graphics\glad.c" />
+    <ClCompile Include="Graphics\Objects\Mesh.cpp" />
+    <ClCompile Include="Graphics\Objects\Model.cpp" />
     <ClCompile Include="Graphics\Objects\Shader.cpp" />
     <ClCompile Include="Graphics\Objects\Texture.cpp" />
     <ClCompile Include="Graphics\Objects\VertexArray.cpp" />
     <ClCompile Include="Graphics\Objects\VertexBuffer.cpp" />
-    <ClCompile Include="Graphics\Objects\VertexElements.cpp" />
+    <ClCompile Include="Graphics\Objects\ElementBuffer.cpp" />
     <ClCompile Include="Graphics\Objects\VertexSpecification.cpp" />
     <ClCompile Include="Shortcut\shortcutInit.cpp" />
     <ClCompile Include="Utility\debugUtils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Graphics\Objects\Mesh.h" />
+    <ClInclude Include="Graphics\Objects\Model.h" />
     <ClInclude Include="Graphics\Objects\Shader.h" />
     <ClInclude Include="Graphics\Objects\Texture.h" />
     <ClInclude Include="Graphics\Objects\VertexArray.h" />
-    <ClInclude Include="Graphics\Objects\VertexElements.h" />
+    <ClInclude Include="Graphics\Objects\ElementBuffer.h" />
     <ClInclude Include="Graphics\Objects\VertexSpecification.h" />
     <ClInclude Include="Graphics\Objects\VertexBuffer.h" />
     <ClInclude Include="Graphics\GL_include.h" />
     <ClInclude Include="Shortcut\shortcutInit.h" />
+    <ClInclude Include="Utility\constants.h" />
     <ClInclude Include="Utility\debugUtils.h" />
+    <ClInclude Include="Utility\Singleton.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Graphics\Shaders\pixel_shaders\color.ps" />
+    <None Include="Graphics\Shaders\pixel_shaders\texture.ps" />
     <None Include="Graphics\Shaders\vertex_shaders\translated_color.vs" />
+    <None Include="Graphics\Shaders\vertex_shaders\position_texture.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

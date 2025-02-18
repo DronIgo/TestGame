@@ -63,7 +63,7 @@
     <ClCompile Include="Graphics\Objects\VertexBuffer.cpp">
       <Filter>Source Files\Graphics\Objects</Filter>
     </ClCompile>
-    <ClCompile Include="Graphics\Objects\VertexElements.cpp">
+    <ClCompile Include="Graphics\Objects\ElementBuffer.cpp">
       <Filter>Source Files\Graphics\Objects</Filter>
     </ClCompile>
     <ClCompile Include="Graphics\Objects\VertexSpecification.cpp">
@@ -81,6 +81,12 @@
     <ClCompile Include="Graphics\Objects\Texture.cpp">
       <Filter>Source Files\Graphics\Objects</Filter>
     </ClCompile>
+    <ClCompile Include="Graphics\Objects\Mesh.cpp">
+      <Filter>Source Files\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Objects\Model.cpp">
+      <Filter>Source Files\Graphics\Objects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphics\GL_include.h">
@@ -92,7 +98,7 @@
     <ClInclude Include="Graphics\Objects\VertexBuffer.h">
       <Filter>Header Files\Graphics\Objects</Filter>
     </ClInclude>
-    <ClInclude Include="Graphics\Objects\VertexElements.h">
+    <ClInclude Include="Graphics\Objects\ElementBuffer.h">
       <Filter>Header Files\Graphics\Objects</Filter>
     </ClInclude>
     <ClInclude Include="Graphics\Objects\VertexSpecification.h">
@@ -110,6 +116,18 @@
     <ClInclude Include="Graphics\Objects\Texture.h">
       <Filter>Header Files\Graphics\Objects</Filter>
     </ClInclude>
+    <ClInclude Include="Graphics\Objects\Mesh.h">
+      <Filter>Header Files\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Objects\Model.h">
+      <Filter>Header Files\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Singleton.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\constants.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Graphics\Shaders\vertex_shaders\translated_color.vs">
@@ -117,6 +135,12 @@
     </None>
     <None Include="Graphics\Shaders\pixel_shaders\color.ps">
       <Filter>Header Files\Graphics\Shaders\pixel_shaders</Filter>
+    </None>
+    <None Include="Graphics\Shaders\pixel_shaders\texture.ps">
+      <Filter>Header Files\Graphics\Shaders\pixel_shaders</Filter>
+    </None>
+    <None Include="Graphics\Shaders\vertex_shaders\position_texture.vs">
+      <Filter>Header Files\Graphics\Shaders\vertex_shaders</Filter>
     </None>
   </ItemGroup>
 </Project>

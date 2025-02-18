@@ -3,12 +3,119 @@
   "WorkspaceRootPath": "C:\\DEV\\GameOpenGL\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Utility\\Singleton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Utility\\Singleton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\vertexSpecification.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\vertexSpecification.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexSpecification.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\VertexSpecification.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Shortcut\\shortcutInit.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Shortcut\\shortcutInit.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Utility\\constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Utility\\constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Shaders\\vertex_shaders\\position_texture.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Shaders\\vertex_shaders\\position_texture.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Shortcut\\shortcutInit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Shortcut\\shortcutInit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\Model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\Mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Utility\\debugUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Utility\\debugUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\VertexArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\VertexArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\ElementBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\ElementBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\ElementBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\ElementBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\VertexBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\VertexBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Shaders\\vertex_shaders\\translated_color.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Shaders\\vertex_shaders\\translated_color.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Utility\\debugUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Utility\\debugUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Objects\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Shaders\\pixel_shaders\\color.ps||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\Shaders\\pixel_shaders\\color.ps||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\GL_include.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F3FA9CB-8A6A-4649-BEFD-C7BF8AD407A7}|Game\\Game.vcxproj|solutionrelative:Game\\Graphics\\GL_include.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,28 +125,385 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 20,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VertexArray.h",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexArray.h",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\VertexArray.h",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexArray.h",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\VertexArray.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-22T16:04:30.023Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VertexArray.cpp",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexArray.cpp",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\VertexArray.cpp",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexArray.cpp",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\VertexArray.cpp",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAhwBkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T05:01:28.023Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ElementBuffer.h",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\ElementBuffer.h",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\ElementBuffer.h",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\ElementBuffer.h",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\ElementBuffer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-22T16:44:10.322Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ElementBuffer.cpp",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\ElementBuffer.cpp",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\ElementBuffer.cpp",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\ElementBuffer.cpp",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\ElementBuffer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-22T16:44:23.592Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VertexBuffer.h",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexBuffer.h",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\VertexBuffer.h",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexBuffer.h",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\VertexBuffer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-22T16:03:52.571Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VertexBuffer.cpp",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexBuffer.cpp",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\VertexBuffer.cpp",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexBuffer.cpp",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\VertexBuffer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-22T16:04:08.295Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Application.cpp",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Application.cpp",
+              "RelativeDocumentMoniker": "Game\\Application.cpp",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Application.cpp",
+              "RelativeToolTip": "Game\\Application.cpp",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAACQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-22T09:03:11.368Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Shader.h",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Shader.h",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\Shader.h",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Shader.h",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\Shader.h",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvywAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-02T07:50:15.318Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Shader.cpp",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Shader.cpp",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\Shader.cpp",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Shader.cpp",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\Shader.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T07:50:31.677Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Texture.h",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Texture.h",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\Texture.h",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Texture.h",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\Texture.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-03T14:29:52.02Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Texture.cpp",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Texture.cpp",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\Texture.cpp",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Texture.cpp",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\Texture.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-03T14:30:03.786Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Mesh.h",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Mesh.h",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\Mesh.h",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Mesh.h",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\Mesh.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-05T17:26:38.11Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Mesh.cpp",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Mesh.cpp",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\Mesh.cpp",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Mesh.cpp",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\Mesh.cpp",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAADkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-05T17:26:57.157Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model.h",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Model.h",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\Model.h",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Model.h",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\Model.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-05T17:26:46.068Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Model.cpp",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Model.cpp",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\Model.cpp",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\Model.cpp",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\Model.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-05T17:27:05.401Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VertexSpecification.cpp",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexSpecification.cpp",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\VertexSpecification.cpp",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexSpecification.cpp",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\VertexSpecification.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T05:43:24.204Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VertexSpecification.h",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexSpecification.h",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Objects\\VertexSpecification.h",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Objects\\VertexSpecification.h",
+              "RelativeToolTip": "Game\\Graphics\\Objects\\VertexSpecification.h",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvykAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-02T05:43:12.844Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Application.cpp",
-              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Application.cpp",
-              "RelativeDocumentMoniker": "Game\\Application.cpp",
-              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Application.cpp",
-              "RelativeToolTip": "Game\\Application.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-22T09:03:11.368Z",
+              "DocumentIndex": 2,
+              "Title": "vector",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\vector",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\vector",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\vector",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\vector",
+              "ViewState": "AgIAADEHAAAAAAAAAAAhwDoHAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-18T07:20:22.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "constants.h",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Utility\\constants.h",
+              "RelativeDocumentMoniker": "Game\\Utility\\constants.h",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Utility\\constants.h",
+              "RelativeToolTip": "Game\\Utility\\constants.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-18T07:14:23.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Singleton.h",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Utility\\Singleton.h",
+              "RelativeDocumentMoniker": "Game\\Utility\\Singleton.h",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Utility\\Singleton.h",
+              "RelativeToolTip": "Game\\Utility\\Singleton.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-12T18:30:42.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "debugUtils.h",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Utility\\debugUtils.h",
+              "RelativeDocumentMoniker": "Game\\Utility\\debugUtils.h",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Utility\\debugUtils.h",
+              "RelativeToolTip": "Game\\Utility\\debugUtils.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-03T11:58:42.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "debugUtils.cpp",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Utility\\debugUtils.cpp",
+              "RelativeDocumentMoniker": "Game\\Utility\\debugUtils.cpp",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Utility\\debugUtils.cpp",
+              "RelativeToolTip": "Game\\Utility\\debugUtils.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-03T11:58:55.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "translated_color.vs",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Shaders\\vertex_shaders\\translated_color.vs",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Shaders\\vertex_shaders\\translated_color.vs",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Shaders\\vertex_shaders\\translated_color.vs",
+              "RelativeToolTip": "Game\\Graphics\\Shaders\\vertex_shaders\\translated_color.vs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-02T08:30:34.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "shortcutInit.cpp",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Shortcut\\shortcutInit.cpp",
+              "RelativeDocumentMoniker": "Game\\Shortcut\\shortcutInit.cpp",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Shortcut\\shortcutInit.cpp",
+              "RelativeToolTip": "Game\\Shortcut\\shortcutInit.cpp",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwD0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-02T08:14:01.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "position_texture.vs",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Shaders\\vertex_shaders\\position_texture.vs",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Shaders\\vertex_shaders\\position_texture.vs",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Shaders\\vertex_shaders\\position_texture.vs",
+              "RelativeToolTip": "Game\\Graphics\\Shaders\\vertex_shaders\\position_texture.vs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-07T15:06:22.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "color.ps",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Shaders\\pixel_shaders\\color.ps",
+              "RelativeDocumentMoniker": "Game\\Graphics\\Shaders\\pixel_shaders\\color.ps",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\Shaders\\pixel_shaders\\color.ps",
+              "RelativeToolTip": "Game\\Graphics\\Shaders\\pixel_shaders\\color.ps",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-02T08:31:59.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "shortcutInit.h",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Shortcut\\shortcutInit.h",
+              "RelativeDocumentMoniker": "Game\\Shortcut\\shortcutInit.h",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Shortcut\\shortcutInit.h",
+              "RelativeToolTip": "Game\\Shortcut\\shortcutInit.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-02T08:13:30.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GL_include.h",
+              "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\GL_include.h",
+              "RelativeDocumentMoniker": "Game\\Graphics\\GL_include.h",
+              "ToolTip": "C:\\DEV\\GameOpenGL\\Game\\Game\\Graphics\\GL_include.h",
+              "RelativeToolTip": "Game\\Graphics\\GL_include.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-22T14:39:33.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Application.h",
               "DocumentMoniker": "C:\\DEV\\GameOpenGL\\Game\\Game\\Application.h",
               "RelativeDocumentMoniker": "Game\\Application.h",
@@ -47,8 +511,7 @@
               "RelativeToolTip": "Game\\Application.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-22T09:02:53.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T09:02:53.18Z"
             }
           ]
         }

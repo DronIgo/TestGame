@@ -20,8 +20,9 @@ void VertexArray::bufferData(float* vertexData, unsigned int dataSize)
 	vbo.bufferData(vertexData, dataSize);
 }
 
-void VertexArray::setVertexSpecification(VertexSpecification* specification)
+void VertexArray::setVertexSpecification(const VertexSpecification* _specification)
 {
+	specification = _specification;
 	glVertexArrayVertexBuffer(ID, vbo_bindingIndex, vbo.getID(), 0, specification->getStride());
 
 	int attribIndex = 0;

@@ -3,8 +3,12 @@
 
 #include "Graphics/Objects/VertexSpecification.h"
 #include "Graphics/Objects/Shader.h"
+#include "Graphics/Objects/Model.h"
+
+#include "Utility/constants.h"
+
 namespace {
-	struct Vertex {
+	struct VertexXYZW {
 		//position
 		float x, y, z, w;
 		//color
@@ -24,16 +28,18 @@ void initGLStates()
 unsigned int vaoID;
 unsigned int vboID;
 
+
+
 void initGraphics()
 {
-	Vertex triangle[] =
+	VertexXYZW triangle[] =
 	{
-		Vertex{0.5, -0.5, 0.0, 1.0, 1.0, 0.0, 0.0},
-		Vertex{-0.5, -0.5, 0.0, 1.0, 0.0, 1.0, 0.0},
-		Vertex{0, 0.5, 0.0, 1.0, 0.0, 0.0, 1.0},
-		Vertex{0.5, -0.5, 0.0, 1.0, 1.0, 0.0, 0.0},
-		Vertex{-0.5, -0.5, 0.0, 1.0, 0.0, 1.0, 0.0},
-		Vertex{0, 0.5, 0.0, 1.0, 0.0, 0.0, 1.0}
+		VertexXYZW{0.5, -0.5, 0.0, 1.0, 1.0, 0.0, 0.0},
+		VertexXYZW{-0.5, -0.5, 0.0, 1.0, 0.0, 1.0, 0.0},
+		VertexXYZW{0, 0.5, 0.0, 1.0, 0.0, 0.0, 1.0},
+		VertexXYZW{0.5, -0.5, 0.0, 1.0, 1.0, 0.0, 0.0},
+		VertexXYZW{-0.5, -0.5, 0.0, 1.0, 0.0, 1.0, 0.0},
+		VertexXYZW{0, 0.5, 0.0, 1.0, 0.0, 0.0, 1.0}
 	};
 	std::vector<VertexElement> elements =
 	{
@@ -48,8 +54,13 @@ void initGraphics()
 
 void initShaders()
 {
-	shaderTranslated = new Shader("Graphics/Shaders/vertex_shaders/translated_color.vs",
-								  "Graphics/Shaders/pixel_shaders/color.ps");
+	std::vector<VertexElement> elements =
+	{
+		VertexElement{4, GL_FLOAT, false, ElementType::XYZW },
+		VertexElement{3, GL_FLOAT, false, ElementType::COLOR}
+	};
+	const VertexSpecification* spec = VertexSpecificationManager::instance().CreateVertexSpecification(elements);
+	shaderTranslated = new Shader(shader_names::triangle_vs, shader_names::triangle_ps, spec);
 }
 
 void render()
