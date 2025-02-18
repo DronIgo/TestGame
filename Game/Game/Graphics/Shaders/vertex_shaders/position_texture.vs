@@ -10,11 +10,9 @@ uniform mat4 model;
 uniform mat4 view;
 uniform mat4 proj;
 
-uniform mat normal2View;
-
 void main() 
 {
-	gl_Position = proj * view * model * aPos;
-	Normal = normal2View * aNormal;
+	gl_Position = vec4(aTex.xy, 0.0, 1.0);//proj * view * model * vec4(aPos, 1.0);//
+	Normal = aNormal;
 	Tex = aTex;
-}
+};

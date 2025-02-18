@@ -37,7 +37,7 @@ bool operator== (const VertexSpecification& spec1, const VertexSpecification& sp
 
 class VertexSpecificationManager : public Singleton<VertexSpecificationManager> {
 private:
-	std::vector<VertexSpecification> specifications;
+	std::vector<VertexSpecification*> specifications;
 public:
 	VertexSpecificationManager() {}
 	const VertexSpecification* CreateVertexSpecification(const std::vector<VertexElement>& _elements);

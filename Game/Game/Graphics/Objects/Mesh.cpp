@@ -33,7 +33,6 @@ void Mesh::Draw(Shader& shader)
 		shader.setInt(("material." + name + number).c_str(), i);
 		glBindTexture(GL_TEXTURE_2D, textures[i].ID);
 	}
-	glActiveTexture(GL_TEXTURE0);
 
 	// draw mesh
 	vao.bind();

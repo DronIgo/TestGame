@@ -2,6 +2,7 @@
 #include "shader.h"
 #include <vector>
 #include <string>
+#include <filesystem>
 #include "mesh.h"
 
 #include <assimp/Importer.hpp>
@@ -11,7 +12,7 @@
 class Model
 {
 public:
-    Model(std::string path)
+    Model(std::filesystem::path path)
     {
         loadModel(path);
         //for (Mesh& mesh : meshes) {
@@ -19,13 +20,14 @@ public:
         //}
     }
     void Draw(Shader shader);
+
 private:
     // model data
     std::vector<Mesh> meshes;
-    std::string directory;
+    std::filesystem::path directory;
     Assimp::Importer importer;
 
-    void loadModel(std::string path);
+    void loadModel(std::filesystem::path& path);
     void processNode(aiNode* node, const aiScene* scene);
     Mesh processMesh(aiMesh* mesh, const aiScene* scene);
     std::vector<Texture> loadMaterialTextures(aiMaterial* mat, aiTextureType aiType, Texture::TYPE type);

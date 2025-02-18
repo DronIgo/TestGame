@@ -11,16 +11,16 @@ void Model::Draw(Shader shader)
 		meshes[i].Draw(shader);
 }
 
-void Model::loadModel(std::string path)
+void Model::loadModel(std::filesystem::path& path)
 {
-	const aiScene* scene = importer.ReadFile(path, aiProcess_Triangulate | aiProcess_FlipUVs);
+	const aiScene* scene = importer.ReadFile(path.string(), aiProcess_Triangulate | aiProcess_FlipUVs);
 
 	if (!scene || scene->mFlags & AI_SCENE_FLAGS_INCOMPLETE || !scene->mRootNode)
 	{
 		std::cout << "ERROR::ASSIMP::" << importer.GetErrorString() << std::endl;
 		return;
 	}
-	directory = path.substr(0, path.find_last_of('/')) + "/";
+	directory = path.remove_filename();
 
 	processNode(scene->mRootNode, scene);
 }
@@ -109,13 +109,13 @@ std::vector<Texture> Model::loadMaterialTextures(aiMaterial* mat, aiTextureType 
 		mat->GetTexture(aiType, i, &path);
 		bool alreadyLoaded = false;
 		for (auto& tex : loadedTextures)
-			if (std::strcmp(tex.path.c_str(), (directory + path.C_Str()).c_str()) == 0) {
+			if (std::strcmp(tex.path.c_str(), (directory.string() + path.C_Str()).c_str()) == 0) {
 				alreadyLoaded = true;
 				textures.push_back(tex);
 				break;
 			}
 		if (!alreadyLoaded) {
-			Texture texture(directory, std::string(path.C_Str()), type);
+			Texture texture(directory.string(), std::string(path.C_Str()), type);
 			texture.type = type;
 			textures.push_back(texture);
 			loadedTextures.push_back(texture);

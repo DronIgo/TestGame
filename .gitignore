@@ -398,3 +398,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+Game/.vs/Game/v17/DocumentLayout.json
+Game/.vs/Game/v17/Browse.VC.db
+Game/.vs/Game/v17/.suo

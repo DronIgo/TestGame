@@ -65,10 +65,10 @@ bool operator==(const VertexSpecification& spec1, const VertexSpecification& spe
 const VertexSpecification* VertexSpecificationManager::CreateVertexSpecification(const std::vector<VertexElement>& _elements)
 {
 	for (auto& spec : specifications) {
-		if (spec.elements == _elements)
-			return &spec;
+		if (spec->elements == _elements)
+			return spec;
 	}
 
-	specifications.push_back(VertexSpecification(_elements));
-	return &specifications[specifications.size() - 1];
+	specifications.push_back(new VertexSpecification(_elements));
+	return specifications[specifications.size() - 1];
 }
