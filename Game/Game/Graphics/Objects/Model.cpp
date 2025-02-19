@@ -59,12 +59,16 @@ Mesh Model::processMesh(aiMesh* mesh, const aiScene* scene)
 	indices.resize(mesh->mNumFaces * 3);
 
 	unsigned int vc = 0;
+	double maxSize = 0;
 	for (unsigned int i = 0; i < mesh->mNumVertices; i++)
 	{
 		//Position
 		vertices[vc++] = mesh->mVertices[i].x;
+		if (std::abs(mesh->mVertices[i].x) > maxSize) maxSize = std::abs(mesh->mVertices[i].x);
 		vertices[vc++] = mesh->mVertices[i].y;
+		if (std::abs(mesh->mVertices[i].y) > maxSize) maxSize = std::abs(mesh->mVertices[i].y);
 		vertices[vc++] = mesh->mVertices[i].z;
+		if (std::abs(mesh->mVertices[i].z) > maxSize) maxSize = std::abs(mesh->mVertices[i].z);
 
 		//Normal
 		vertices[vc++] = mesh->mNormals[i].x;

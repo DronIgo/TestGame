@@ -156,6 +156,7 @@
     <ClCompile Include="Utility\debugUtils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Graphics\Objects\Camera.h" />
     <ClInclude Include="Graphics\Objects\Mesh.h" />
     <ClInclude Include="Graphics\Objects\Model.h" />
     <ClInclude Include="Graphics\Objects\Shader.h" />

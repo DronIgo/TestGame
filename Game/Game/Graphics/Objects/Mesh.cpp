@@ -53,7 +53,7 @@ void Mesh::print()
 
 void Mesh::setupMesh()
 {
-	vao.bufferData((float*) &vertices[0], sizeof(vertices), 
+	vao.bufferData((float*) &vertices[0], vertices.size() * sizeof(float), 
 				   &indices[0], indices.size() * sizeof(unsigned int));
 	vao.setVertexSpecification(spec);
 }
