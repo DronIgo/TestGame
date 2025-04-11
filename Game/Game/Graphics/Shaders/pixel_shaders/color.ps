@@ -1,9 +1,12 @@
 #version 450 core 
 
-in vec3 color;
+layout (location = 0) in f_input
+{
+	vec3 color;
+} f_in;
+
 out vec4 fragColor;
 
-
 void main() {
-	fragColor = vec4(color, 1.0);
+	fragColor = vec4(f_in.color, 1.0);
 }

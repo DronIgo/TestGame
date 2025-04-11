@@ -25,6 +25,7 @@ struct uniformValue {
     enum class val_state {
         b, i, f, v3, m44
     } state;
+    bool vertex;
 };
 
 class Shader
@@ -33,14 +34,15 @@ private:
     //map between uniform location and a value
     std::map<int, uniformValue> uniformCommands;
     static unsigned int currentActiveShader;
-    bool checkUniformPresent(const std::string& name, int& location) const;
+    bool checkUniformPresent(const std::string& name, int& location, bool& vertex_shader) const;
     void setUniform(int location, uniformValue& value);
 
     const VertexSpecification* specification;
 public:
     // the program ID
-    unsigned int ID;
-
+    unsigned int vertexID;
+    unsigned int fragmentID;
+    unsigned int pipelineID;
     // constructor reads and builds the shader
     Shader(const std::string& vertexPath, const std::string& fragmentPath, const VertexSpecification* spec);
     

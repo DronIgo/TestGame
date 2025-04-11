@@ -46,6 +46,12 @@
     <Filter Include="Header Files\Graphics\Shaders\pixel_shaders">
       <UniqueIdentifier>{7249890b-916b-42cc-9224-03b15aa836c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{c7f7d917-0ef7-4ad8-b0f8-1fc184ae4260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{3917f847-2ac4-4e23-91b9-57da9038ef49}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.h">
@@ -86,6 +92,9 @@
     </ClCompile>
     <ClCompile Include="Graphics\Objects\Model.cpp">
       <Filter>Source Files\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\ConsoleManager.cpp">
+      <Filter>Source Files\Input</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +139,9 @@
     </ClInclude>
     <ClInclude Include="Graphics\Objects\Camera.h">
       <Filter>Header Files\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\ConsoleManager.h">
+      <Filter>Header Files\Input</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

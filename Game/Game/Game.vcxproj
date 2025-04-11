@@ -152,6 +152,7 @@
     <ClCompile Include="Graphics\Objects\VertexBuffer.cpp" />
     <ClCompile Include="Graphics\Objects\ElementBuffer.cpp" />
     <ClCompile Include="Graphics\Objects\VertexSpecification.cpp" />
+    <ClCompile Include="Input\ConsoleManager.cpp" />
     <ClCompile Include="Shortcut\shortcutInit.cpp" />
     <ClCompile Include="Utility\debugUtils.cpp" />
   </ItemGroup>
@@ -166,6 +167,7 @@
     <ClInclude Include="Graphics\Objects\VertexSpecification.h" />
     <ClInclude Include="Graphics\Objects\VertexBuffer.h" />
     <ClInclude Include="Graphics\GL_include.h" />
+    <ClInclude Include="Input\ConsoleManager.h" />
     <ClInclude Include="Shortcut\shortcutInit.h" />
     <ClInclude Include="Utility\constants.h" />
     <ClInclude Include="Utility\debugUtils.h" />

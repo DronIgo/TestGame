@@ -110,16 +110,18 @@ void render()
 {
 	glClearColor(0.2, 0.0, 0.2, 1.0);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	glm::mat4 model = glm::scale(glm::mat4(1.0f), glm::vec3(0.01, 0.01, 0.01));// glm::mat4(1.0f);//
-	glm::mat4 view = camera->GetViewMatrix();
-	glm::mat4 proj = glm::perspective(glm::radians(60.0f), (float)800 / (float)600, 0.1f, 100.0f);
-	shaderChair->setMat4f("model", model);
-	shaderChair->setMat4f("view", view);
-	shaderChair->setMat4f("proj", proj);
-	shaderChair->use();
+	//glm::mat4 model = glm::scale(glm::mat4(1.0f), glm::vec3(0.01, 0.01, 0.01));// glm::mat4(1.0f);//
+	//model = glm::rotate(model, glm::radians(90.0f), glm::vec3(-1, 0, 0));
+	//glm::mat4 view = camera->GetViewMatrix();
+	//glm::mat4 proj = glm::perspective(glm::radians(60.0f), (float)800 / (float)600, 0.1f, 100.0f);
+	//shaderChair->setMat4f("model", model);
+	//shaderChair->setMat4f("view", view);
+	//shaderChair->setMat4f("proj", proj);
+	//shaderChair->use();
+	shaderTranslated->use();
 	triangleVAO.bind();
 	glDrawArrays(GL_TRIANGLES, 0, 3);
 	triangleVAO.unbind();
 	//shaderChair->use();
-	modelChair->Draw(*shaderChair);
+	//modelChair->Draw(*shaderChair);
 }
